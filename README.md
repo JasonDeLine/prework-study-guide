@@ -16,5 +16,5 @@ N/A
 
 ## License
 
-MIT License
+Please refer to the license in the repo.
 
