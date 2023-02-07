@@ -50,14 +50,22 @@
       <section class="card" id="javascript-section">
         <h2>Command Line Notes</h2>  
           <ul>
-            <li>CD: change directory. Can be followed by the directory name to which you wish to navigate</li>
-            <li>CD ..: changes directory up to the parent directory</li>
-            <li>LS: lists all files with the current directory</li>
-            <li>Git add -A: This command stages ALL (-A) changes made to a branch prior to pushing those changes to git</li>
-            <li>Git commit -m “commit message here”: This commend allows a user to add a commit message to the changes they are pushing</li>
-            <li>Git pull origin main: this makes sure that your local main branch and the git main branch are the same and up to date prior to pushing new changes</li>
-            <li>Git push origin [name of working branch]: Allows users to push changes onto the working branch they created where [name of working branch] is replaced with the name of the banch to which we are pushing the change/s</li>
-            <li>Git status: shows the status of the current branch on which you are working</li>
+            <li><u>CD</u>: change directory. Can be followed by the directory name to which you wish to navigate</li>
+            <li><u>CD ..</u>: changes directory up to the parent directory</li>
+            <li><u>LS</u>: lists all files with the current directory</li>
+            <li><u>Git add -A</u>: This command stages ALL (-A) changes made to a branch prior to pushing those changes to git</li>
+            <li><u>Git commit -m “commit message here”</u>: This commend allows a user to add a commit message to the changes they are pushing</li>
+            <li><u>Git pull origin main</u>: this makes sure that your local main branch and the git main branch are the same and up to date prior to pushing new changes</li>
+            <li><u>Git push origin [name of working branch]</u>: Allows users to push changes onto the working branch they created where [name of working branch] is replaced with the name of the banch to which we are pushing the change/s</li>
+            <li><u>Git status</u>: shows the status of the current branch on which you are working</li>
+            <h3>Commit Sequence</h3>
+                <li>CD - Navigate to the working directory</li>
+                <li>Git Status - Check the branch you are on</li>
+                <li>Git pull origin main - Pull down the most recent version of the main branch from Git Hub</li>
+                <li>Git checkout -b [working branch name] - Create a working branch</li>
+                <li>Git add -A - stages any changes made in working directory to the working branch</li>
+                <li>Git commit -m [add commit message here] - Adds a commit message to the staged changes prior to pushing to Git</li>
+                <li>Git push origin [working branch name] - Pushes changes from local working directory to Git to create pull request</li>
           </ul>
       </section>
     </main>
